@@ -1,0 +1,6 @@
+{
+  "root": "server",
+  "main": "server/main.coffee",
+  "port": 3001,
+  "data": "server/data"
+}

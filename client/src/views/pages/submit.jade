@@ -1,0 +1,21 @@
+.content(class = "col-md-8")
+  form( name="Form"
+        id="form"
+        novalidate)
+
+    .row
+      div(ng-repeat="item in content track by item.id"
+          )
+        hr
+        p(class="text-danger") {{::item.value}}
+
+        input(id="{{item.type}}"
+              type="checkbox"
+              ng-model="item.type"
+              ng-true-value="'customer says YES to this'")
+        .center
+          button( type="submit"
+                  class="btn btn btn-info btn-lg btn-block"
+                  ng-disabled="Form.$pristine" 
+                  ng-click="next(Form)") Next
+

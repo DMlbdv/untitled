@@ -1,0 +1,8 @@
+[
+    {"tab" : "Authorization", "state" : "active"},
+    {"tab" : "Personal information", "state" : ""},
+    {"tab" : "Contact information", "state" : ""},
+    {"tab" : "Data submition", "state" : ""},
+    {"tab" : "Reviewing", "state" : ""},
+    {"tab" : "Customers page", "state" : ""}
+  ]

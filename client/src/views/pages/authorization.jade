@@ -1,0 +1,28 @@
+.content(class = "col-md-8")
+  form( name="Form"
+        id="form"
+        )
+    .row
+      div(ng-repeat="item in content track by item.id"
+          )
+
+        label(for="{{item.type}}"){{::item.type}}
+
+        input(id="{{item.type}}"
+              class = "form-control"
+              name='{{item.type}}'
+              type="text"
+              ng-model="item.value"
+              placeholder="Enter {{item.type}}"
+              validator='required'
+              valid-method="blur"
+              ui-mask=""
+              required)
+    .center
+      button( type="submit"
+              class="btn btn btn-info btn-lg btn-block"
+              ng-disabled="Form.$invalid" 
+              ng-click="next(Form)" ) Next
+      hr
+      button( class="btn btn-default btn-lg btn-block" 
+              validation-reset='Form' ) Reset

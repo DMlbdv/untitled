@@ -1,0 +1,27 @@
+From 9de88bcf2c055ad51349dc3d95e9ff7012897d7e Mon Sep 17 00:00:00 2001
+From: DMlbdv <dima@C-3PO.local>
+Date: Wed, 1 Apr 2015 16:33:58 +0300
+Subject: [PATCH] bagfix
+
+---
+ client/src/scripts/utils/utils-service.coffee | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/client/src/scripts/utils/utils-service.coffee b/client/src/scripts/utils/utils-service.coffee
+index 490272f..6e83c2b 100644
+--- a/client/src/scripts/utils/utils-service.coffee
++++ b/client/src/scripts/utils/utils-service.coffee
+@@ -15,9 +15,6 @@ angular.module("uiRouter.utils.service", []).factory "utils", ->
+     st = state.current.url.substring(1)
+ 
+     while i < a.length
+-      return ({"current" : a[i].id, "next" : a[++i].id}) if a[i].id is st
+-=======
+       return ({"current" : a[i].id, "next" : (if i == a.length then null else a[++i]) }) if a[i].id is st
+->>>>>>> states_feature
+       i++
+     null
+\ No newline at end of file
+-- 
+1.8.4.2
+

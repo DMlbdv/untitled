@@ -1,0 +1,41 @@
+{
+  "content" : {
+     "authorization" : [
+       {"field" : "login"},
+       {"field" : "email"},
+       {"field" : "password"},
+       {"field" : "password-conf"}
+    ],
+
+     "personalInf" : [
+       {"field" : "name"},
+       {"field" : "surname"},
+       {"field" : "date of birth"},
+       {"field" : "sex"},
+       {"field" : "additional info"}
+    ],
+
+     "contacts" : [
+       {"field" : "tel."},
+       {"field" : "country"},
+       {"field" : "city"},
+       {"field" : "adress"}
+    ],
+
+     "submit" : [
+       {"field" : "I accept all terms and conditions"}
+    ],
+
+     "review" : [
+       {"field" : "login"},
+       {"field" : "email"},
+       {"field" : "password"},
+       {"field" : "password-conf"}
+    ],
+
+     "customers" : [
+       {"field" : "log"},
+       {"field" : "customers"}
+    ]
+  }
+}

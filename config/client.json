@@ -1,0 +1,39 @@
+{
+  "root": "client",
+  "src": {
+    "root": "client/src",
+    "stylesheets": "client/src/stylesheets",
+    "public": "client/src/public",
+    "scripts": "client/src/scripts",
+    "images": "client/src/images",
+    "views": "client/src/views",
+    "vendor": "vendor",
+    "svg": "client/src/images/svg"
+  },
+  "scripts": {
+    "map": false
+  },
+  "build": {
+    "root": "client/build",
+    "assets": "client/build/assets"
+  },
+
+  "db": "database",
+  
+  "deploy": {
+    "root": "client/deploy",
+    "awsKey": "",
+    "awsSecret": "",
+    "awsBucket": "",
+    "awsRegion": "",
+    "awsDistributionId": "",
+    "awsOrginAccessIdentity": ""
+  },
+  "environments": {
+    "development": {
+      "scripts": {
+        "map": true
+      }
+    }
+  }
+}

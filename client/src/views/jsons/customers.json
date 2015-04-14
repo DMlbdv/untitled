@@ -1,0 +1,127 @@
+
+{
+  "customers":[
+    {
+      "id": "initial",
+      "inf": [
+         {
+          "id": "authorization",
+          "fields": [
+              {
+                "id" :"a",
+                "type" :"login", 
+                "value": "cust1"
+              },
+              {
+                "id" :"b",
+                "type" :"email", 
+                "value": "sth@th.com"
+              },
+              {
+                "id" :"c",
+                "type" :"password", 
+                "value": "222"
+              },
+              {
+                "id" :"d",
+                "type" :"password-conf", 
+                "value": "222"
+              }
+            ]
+        },
+        {
+        "id": "personal",
+        "fields": [
+
+                {
+                  "id" :"e",
+                  "type" :"name", 
+                  "value": "john"
+                },
+                {
+                  "id" :"f",
+                  "type" :"surname", 
+                  "value": "doev"
+                },
+                {
+                  "id" :"g",
+                  "type" :"date of birth", 
+                  "value": "1/2/3456"
+                },
+                {
+                  "id" :"h",
+                  "type" :"sex", 
+                  "value": "male"
+                },
+                {
+                  "id" :"i",
+                  "type" :"addinional inf", 
+                  "value": "snthtns snth nsh"
+                }
+
+              ]
+          },
+          {
+          "id": "contacts",
+          "fields": [
+
+                  {
+                    "id" :"k",
+                    "type" :"tel", 
+                    "value": "234-2423-24"
+                  },
+                  {
+                    "id" :"m",
+                    "type" :"country", 
+                    "value": "Mexico"
+                  },
+                  {
+                    "id" :"n",
+                    "type" :"city", 
+                    "value": "mexico"
+                  },
+                  {
+                    "id" :"l",
+                    "type" :"adress", 
+                    "value": "chkalova. str"
+                  }
+                ]
+            },
+            {
+            "id": "submit",
+            "fields": [
+
+                    {
+                      "id" :"o",
+                      "type" :"sub", 
+                      "value": "I accept all terms and conditions"
+                    }
+                  ]
+              },
+              {
+              "id": "review",
+              "fields": [
+
+                      {
+                        "id" :"p",
+                        "type" :"", 
+                        "value": ""
+                      }
+                    ]
+                },
+                {
+                "id": "customers",
+                "fields": [
+
+                        {
+                          "id" :"q",
+                          "type" :"", 
+                          "value": ""
+                        }
+                      ]
+                  }
+
+      ]
+    }
+  ]
+}

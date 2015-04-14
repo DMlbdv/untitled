@@ -1,0 +1,13 @@
+.content(class = "col-md-8")
+  .row
+    hr
+    div
+      table(class="table table-striped")
+         tr(class="info")
+          th(ng-repeat="item in newCustomer track by item.id") {{::item.type}}
+         tr()
+           td(ng-repeat="item in newCustomer track by item.id") {{::item.value}}
+  .center
+    button( type="button"
+            class="btn btn btn-info btn-lg btn-block"
+            ng-click="next()") Next

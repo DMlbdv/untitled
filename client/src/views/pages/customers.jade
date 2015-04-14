@@ -1,0 +1,7 @@
+.content(class="table-responsive col-md-8")
+  h3(class="btn-success") customers table
+  table(class="table table-striped")
+    tr(class="info")
+     th(ng-repeat = "item in newCustomer track by item.id" ng-if = "item.id == 'e'") {{item.type}}
+    tr()
+      td(ng-repeat = "item in newCustomer track by item.id" ng-if = "item.id == 'e'"){{item.value}}
